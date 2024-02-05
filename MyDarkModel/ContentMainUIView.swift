@@ -15,6 +15,7 @@ struct ContentMainUIView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
+            
             ContentView()
                 .tag(0)
             
@@ -24,12 +25,11 @@ struct ContentMainUIView: View {
             ContentView()
                 .tag(2)
             
-        }.edgesIgnoringSafeArea(.bottom)
-        .overlay(
+        }.overlay(
             CustomTabBar(selectedTab: $selectedTab)
-                .frame(maxWidth: .infinity,maxHeight: 40)
+                .frame(maxWidth: .infinity,maxHeight: 88)
                 .background(appearanceManager.isDarkMode ? Color.black:Color.orange),alignment: .bottom
-        )
+        ).edgesIgnoringSafeArea(.bottom)
     }
 }
 
