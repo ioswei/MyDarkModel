@@ -14,6 +14,7 @@
 		2687A21C2B70B4990008F2FD /* MyDarkModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2687A21B2B70B4990008F2FD /* MyDarkModelTests.swift */; };
 		2687A2262B70B4990008F2FD /* MyDarkModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2687A2252B70B4990008F2FD /* MyDarkModelUITests.swift */; };
 		2687A2282B70B4990008F2FD /* MyDarkModelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2687A2272B70B4990008F2FD /* MyDarkModelUITestsLaunchTests.swift */; };
+		E2268EBE2B71230700A6477A /* ContentMainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2268EBD2B71230700A6477A /* ContentMainUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2687A2212B70B4990008F2FD /* MyDarkModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDarkModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2687A2252B70B4990008F2FD /* MyDarkModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDarkModelUITests.swift; sourceTree = "<group>"; };
 		2687A2272B70B4990008F2FD /* MyDarkModelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDarkModelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2268EBD2B71230700A6477A /* ContentMainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMainUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				2687A20A2B70B4970008F2FD /* MyDarkModelApp.swift */,
 				2687A20C2B70B4970008F2FD /* ContentView.swift */,
+				E2268EBD2B71230700A6477A /* ContentMainUIView.swift */,
 				2687A20E2B70B4990008F2FD /* Assets.xcassets */,
 				2687A2102B70B4990008F2FD /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				2687A20D2B70B4970008F2FD /* ContentView.swift in Sources */,
 				2687A20B2B70B4970008F2FD /* MyDarkModelApp.swift in Sources */,
+				E2268EBE2B71230700A6477A /* ContentMainUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

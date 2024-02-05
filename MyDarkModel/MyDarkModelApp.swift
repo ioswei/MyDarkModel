@@ -16,7 +16,7 @@ struct MyDarkModelApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentMainUIView()
                 .environmentObject(appearanceManager)
                 .preferredColorScheme(appearanceManager.isDarkMode ? .dark : .light)
         }
